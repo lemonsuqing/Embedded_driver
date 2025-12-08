@@ -1,0 +1,27 @@
+# 内核模块编译核心产物（必须忽略）
+*.ko
+*.o
+*.mod.*
+*.symvers
+modules.order
+Module.symvers
+*.mod
+
+# 编译过程临时文件/目录
+.tmp_versions/
+*.cmd
+*.dwo
+*.elf
+*.i
+*.ii
+*.lst
+*.s
+*.su
+*.xz
+
+# 编辑器/系统临时文件（可选，建议加）
+*.swp
+*.swo
+.DS_Store
+*.bak
+*.orig
